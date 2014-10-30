@@ -3,7 +3,8 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-  if (!argv[10]){ //If the user has no USERNAME or if USERNAME was indexed incorrectly.
+  //If the user has no USERNAME or if USERNAME was incorrectly indexed:
+  if (!argv[10]){
     cout << "Hello, world!" << endl;
   }
   else
